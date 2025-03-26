@@ -3,6 +3,13 @@ A web app built with Python and Streamlit that removes backgrounds from images u
 
 It works well for most images with simple backgrounds, but don’t expect Photoshop-level results! 😊
 
+## Result
+
+<p align ="center">
+    <img src="/screenshot/result.png" width="1000" />
+    <em></em>
+</p>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
