@@ -16,14 +16,6 @@ def setup_page():
     hide_streamlit_style()
 
 
-def hide_streamlit_style():
-    """Hides default Streamlit styling."""
-    st.markdown(
-        "<style>footer {visibility: hidden;} #MainMenu {visibility: hidden;}</style>",
-        unsafe_allow_html=True,
-    )
-
-
 def initialize_session():
     """Initializes a unique session ID."""
     if "uploader_key" not in st.session_state:
