@@ -46,6 +46,7 @@ def display_ui():
 
 def process_and_display_images(uploaded_files):
     """Processes the uploaded files and displays the original and result images."""
+    st.header("Image Background Remover")
     if not uploaded_files:
         st.warning("Please upload an image.")
         return
