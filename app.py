@@ -41,16 +41,7 @@ def display_ui():
         key=st.session_state.get("uploader_key", "file_uploader"),
     )
 
-    display_footer()
     return uploaded_files
-
-
-def display_footer():
-    """Displays a custom footer."""
-    footer = """<div style="position: fixed; bottom: 0; left: 20px;">
-                <p>Developed with ❤ by <a href="https://github.com/balewgize" target="_blank">@balewgize</a></p>
-                </div>"""
-    st.sidebar.markdown(footer, unsafe_allow_html=True)
 
 
 def process_and_display_images(uploaded_files):
